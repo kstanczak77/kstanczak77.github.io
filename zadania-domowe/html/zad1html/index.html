@@ -9,25 +9,30 @@
 
 <body>
     <form action=" " method="POST">
-        <label for="username">Imię</label>
-        <input type="text" id="username" name="imię"><br>
-        <input type="text" name="nazwisko"><br>
-        <input type="email" name="email" placeholder="podaj adres email><br>
-        <input type="tel" name="nr.telefonu"><br>
+        <label for="username"> imię</label><br>
+        <input type="text" name="imię" id="username" required><br>
+        <label for="surname"> nazwisko</label><br>
+        <input type="text" id="surname" name="nazwisko"><br>
+        <label for="email">adres email</label><br>
+        <input type="email" name="email" placeholder="podaj adres email"> <br>
+        <label for="phone">podaj nr telefonu</label><br>
+        <input type="tel" name="nrtelefonu" id="phone"><br><br>
+        <label for="city">wybierz nazwę miasta</label><br>
+
         <select name="city">
             <option value="Kraków">Kraków</option>
             <option value="Warszawa">Warszawa</option>
             <option value="Gdańsk">Gdańsk</option>
-
-        </select> <br>
+        </select> <br><br>
+        <label for="city">podaj swoją płeć</label> <br>
         <input type="radio" name="choise">Kobieta <br>
-        <input type="radio" name="choise">Mężczyzna <br>
+        <input type="radio" name="choise">Mężczyzna <br><br>
+        <label for="info">zostaw wiadomość</label><br>
+        <textarea name="message" id="info" maxlenght="100"></textarea><br>
         <input type="checkbox" name="agreement">Wyrażam zgodę na przetwarzanie danych osobowych <br>
-        <textarea name="message" maxlenght="100"></textarea>
-
         <input type="submit" value="Wyślij">
     </form>
-    </form>
+
 </body>
 
 </html>
