@@ -29,16 +29,19 @@
             <option value="Gdańsk">Gdańsk</option>
         </select> <br><br>
 
-        Podaj swoją płeć<br>
-        <input type="radio" name="choise">Kobieta <br>
-        <input type="radio" name="choise">Mężczyzna
-
-
-        <br><br>
+        <p>podaj swoją płeć:</p> 
+        <input type="radio" name="choise" id="Kobieta">
+        <label for="Kobiet">Kobieta</label><br>
+        <input type="radio" name="choise" id="Mężczyzna">
+        <label for="Mężczyzn">Mężczyzna</label>
+        <br>
+         <br>   
         <label for="info">zostaw wiadomość</label><br>
         <textarea name="message" id="info"></textarea><br>
 
-        <input type="checkbox" name="agreement" required>Wyrażam zgodę na przetwarzanie danych osobowych <br>
+        <input type="checkbox" name="agreement" id="agreement1" required> 
+        <label for="agreement1">Wyrażam zgodę na przetwarzanie danych osobowych</label></br>
+       
 
         <input type="submit" value="Wyślij">
 
