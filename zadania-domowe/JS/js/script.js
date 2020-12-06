@@ -1,0 +1,1 @@
+console.log("Moje imię to Krzysztof")
